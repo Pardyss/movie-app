@@ -1,0 +1,161 @@
+#root {
+  margin: 0 0 200px 0;
+  text-align: center;
+  padding: 0;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cards-container {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.more {
+  text-align: center;
+}
+
+.btns {
+  background-color: grey;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 0 5px;
+}
+
+.icons {
+  position: absolute;
+  width: 30px;
+  padding: 15px;
+  left: auto;
+  right: 430px;
+  color: gray;
+}
+
+.selects {
+  background-color: black;
+  padding: 10px 30px;
+  margin: 0 5px;
+}
+
+.errors {
+  margin: 50px 0;
+  font-size: 24px;
+  color: orange;
+}
+
+#Menu {
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  color: black;
+
+  box-sizing: border-box;
+  padding: 10px;
+  height: 50px;
+}
+
+.menuItems {
+  margin: 0 10px;
+}
+
+#descriptions {
+  display: flex;
+  margin: 50px 20px;
+  padding: 30px;
+  border: solid 3px #505050;
+}
+.innerContainer {
+  width: 50%;
+  display: flex;
+}
+
+.innerContainer2 {
+  width: 50%;
+}
+
+.paras {
+  text-align: left;
+  margin: 30px;
+}
+
+span {
+  color: orange;
+}
+
+.imgs {
+  text-align: left;
+}
+
+.Pagination {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pagiContainer {
+  text-align: center;
+}
+
+.Pagination li {
+  margin: 0 10px;
+  font-size: 30px;
+}
+
+.slideShow {
+  margin: 0 0 40px 0;
+}
+.banners {
+  margin-top: 50px;
+  width: 800px;
+  height: 400px;
+  box-sizing: border-box;
+  transition: opacity 0.1s ease-in-out;
+  border-radius: 8px;
+}
+
+banners.active {
+  opacity: 1;
+}
+
+.footer {
+  margin: 50px 0;
+}
+
+.slider-dots-section {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.dots {
+  border-radius: 50%;
+  background-color: rgba(192, 192, 192, 0.3);
+  height: 15px;
+  width: 15px;
+  opacity: 0.5;
+  display: inline-block;
+}
+
+.dots.active {
+  background-color: orange;
+  border-radius: 60%;
+}
+
+.d {
+  box-sizing: border-box;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  margin: 0;
+}
